@@ -43,6 +43,7 @@ border {
   font-size: 2rem;
   padding-bottom: 2rem;
   text-align: center;
+  font-weight: 400;
 }
 
 @media (min-width: 768px) {
