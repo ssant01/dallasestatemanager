@@ -34,9 +34,15 @@ border {
   align-items: center;
   justify-content: center;
   text-transform: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding-bottom: 2rem;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .lad-heading  {
+    font-size: 2.5rem;
+  }
 }
 
 
@@ -45,17 +51,30 @@ border {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.4rem;
   padding-bottom: 2rem;
   text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .lad-subheading  {
+    font-size: 2rem;
+  }
 }
 
 .lad-contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.4rem;
 }
+
+@media (min-width: 768px) {
+  .lad-contact  {
+    font-size: 2rem;
+  }
+}
+
 
 a {
   color: black;

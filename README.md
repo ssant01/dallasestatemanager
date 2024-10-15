@@ -1,3 +1,3 @@
-# Steven Lawrence Santos
+# Dallas Estate Manager
 
-## Custom HTML Template build for stevenlawrencesantos.com
+## Custom HTML Template build for dallasestatemanager.com
