@@ -1,59 +1,86 @@
-
-<html
-<html style="color: black; text-align: center; font-family: 'courier new', sans-serif;">
-	
-<body style="background-color:lightgrey;">	
+<!DOCTYPE html>
+<html>
+   <html style="color: white; text-align: center; font-family: 'courier new', sans-serif;">
+<body style="background-color:lightgrey;"> 
 <head>
-    <meta charset="utf-8">
+ <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Estate Management">
-	<meta name="keywords" content="Dallas, Estate">
-<meta name="author" content="s">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="dallas estate manager">
+    <meta name="keywords" content="dallas, estate">
+    <meta name="author" content="steven santos">
 
-<meta name="norton-safeweb-site-verification" content="PTETB55KRNEGWSF5L3E0OMKV8IRMF3XNYX05O0OS0YO0FHOIRV8PYII7I5A--W4U-T04QDRKKZB16FU0-DJIXVVK-0-FTTSWK89MKH3APQ0CXEVGZA-73ELJF1IC8UVY" />
-
-	
-	<link rel="shortcut icon"  href="favicon.png">
-
-	
- <title>DALLAS ESTATE MANAGER</title>
-	
-   <body class="overflow-y-hidden"> 	
-</head> 	
-
-
-var paragraph = document.getElementsByTagName('p')[0];
-
-function textEffect(animationName) {
-  var text = paragraph.innerHTML,
-    chars = text.length,
-    newText = '',
-    animation = animationName,
-    char,
-    i;
-
-  for (i = 0; i < chars; i += 1) {
-    newText += '<i>' + text.charAt(i) + '</i>';
-  }
-
-  paragraph.innerHTML = newText;
-
-  var wrappedChars = document.getElementsByTagName('i'),
-    wrappedCharsLen = wrappedChars.length,
-    j = 0;
-
-  function addEffect () {
-    setTimeout(function () {
-      wrappedChars[j].className = animation;
-      j += 1;
-      if (j < wrappedCharsLen) {
-        addEffect();
-      }
-    }, 100)
-  }
-
-  addEffect();
-};
-
-textEffect('fly-in-out');
+    <title>dallas estate manager</title> 
+ <body class="overflow-y-hidden">   
+<style>
+  
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+ 
+        body {
+            background: light grey;
+        }
+ 
+        .container {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+ 
+        .container span {
+            display: block;
+        }
+ 
+        .text1 {
+            color: white;
+            font-size: 70px;
+            font-weight: 700;
+            letter-spacing: 8px;
+            margin-bottom: 20px;
+            background: light grey;
+            position: relative;
+            animation: text 3s 1;
+        }
+ 
+        .text2 {
+            font-size: 30px;
+            color: light grey;
+            font-family: Georgia, serif;
+        }
+ 
+        @keyframes text {
+            0% {
+                color: white;
+                margin-bottom: -40px;
+            }
+ 
+            30% {
+                letter-spacing: 25px;
+                margin-bottom: -40px;
+            }
+ 
+            85% {
+                letter-spacing: 8px;
+                margin-bottom: -40px;
+            }
+        }
+    </style>
+</head>
+ 
+<body>
+    <div class="container">
+        <div class="row">
+            <span class="text1">hello!</span>
+            <span class="text2">more to come soon..</span>
+        
+        </div>
+    </div>
+</body>
+ 
+</html>
